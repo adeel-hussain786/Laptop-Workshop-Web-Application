@@ -1,0 +1,245 @@
+.footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  background-color: #009688;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questions-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #99e1a9;
+}
+
+.phone-number, .chat-now, .message-us {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.phone-number::before,
+.chat-now::before,
+.message-us::before {
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+.phone-number::before {
+  content: "\f095";
+}
+
+.chat-now::before {
+  content: "\f0e0";
+}
+
+.message-us::before {
+  content: "\f0e0";
+}
+
+.footer-lower {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 15px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  color: #343a40;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 9px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.footer-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  max-height: 50px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 4px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: background-color 0.3s;
+}
+
+.icon:hover {
+  background-color: #007bff;
+}
+
+.icon svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.whatsapp-link {
+  color: #25D366;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.whatsapp-link i {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-bottom-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-right {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-logo img {
+    max-height: 40px;
+  }
+
+  .phone-number, .chat-now, .message-us {
+    margin-right: 15px;
+  }
+
+  .questions-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    min-width: 150px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-section h3 {
+    font-size: 16px;
+  }
+
+  .footer-section ul li {
+    font-size: 14px;
+  }
+
+  .footer-bottom-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo img {
+    max-height: 30px;
+  }
+
+  .phone-number, .chat-now, .message-us {
+    margin-right: 10px;
+  }
+
+  .questions-text {
+    font-size: 14px;
+  }
+}
