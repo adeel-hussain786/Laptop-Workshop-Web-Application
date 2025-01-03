@@ -28,11 +28,15 @@
 ## 📸 Screenshots and Preview  
 
 ### Home Page  
-![image](https://github.com/user-attachments/assets/1bfba249-8b7c-41a9-96cc-369887e56e19)
+![image](https://github.com/user-attachments/assets/46745796-f1b2-4fa8-83ab-32ab153d14da)
 
 
 ### Product Detail Page  
-![image](https://github.com/user-attachments/assets/830454f2-a254-4723-a751-15e9eb9b1257)
+![image](https://github.com/user-attachments/assets/ff1897b7-ee66-4350-bd8b-1754e082453c)
+
+
+### Sell 
+![image](https://github.com/user-attachments/assets/a5049f90-385f-4c16-a9e1-e1e4b787be44)
 
 
 ### Conatct Us
@@ -89,8 +93,9 @@ We welcome contributions! Here's how you can help:
    ```bash
    git push origin feature/YourFeatureName
    ```  
-5. Submit a pull request.  
+5. Submit a pull request.
 
+   Now, you should be able to access the project locally and start contributing or customizing it!
 ---
 
 ## 🧑‍💻 How to Clone the Repository  
@@ -98,17 +103,17 @@ We welcome contributions! Here's how you can help:
 To clone the repository and get started with the project on your local machine, follow these steps:  
 
 1. **Copy the repository URL**:  
-   Go to the [Laptop Workshop Website GitHub repository](https://github.com/yourusername/LaptopWorkshopWebsite) and copy the URL.  
+   Go to the [Laptop Workshop Website GitHub repository](https://github.com/adeel-hussain786/Laptop-Workshop-Web-Application.git) and copy the URL.  
 
 2. **Clone the repository**:  
    Open your terminal and run the following command:  
    ```bash
-   git clone https://github.com/yourusername/LaptopWorkshopWebsite.git
+   git clone https://github.com/adeel-hussain786/Laptop-Workshop-Web-Application.git
    ```
 
 3. **Navigate to the project directory**:  
    ```bash
-   cd LaptopWorkshopWebsite
+   cd Laptop-Workshop-Application
    ```
 
 4. **Install dependencies**:  
@@ -122,9 +127,6 @@ To clone the repository and get started with the project on your local machine, 
    ```bash
    npm start
    ```
-
-Now, you should be able to access the project locally and start contributing or customizing it!
-
 ---
 
 ## 🎨 Future Plans  
